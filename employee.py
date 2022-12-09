@@ -11,6 +11,24 @@ class Employee:
     def __str__(self):
         return self.name
 
+class Salary:
+
+    def __init__(self, pay):
+        self.pay = pay
+
+
+    def getPay(self):
+        return self.pay
+
+class Commission:
+    def __init__(self, comission):
+        self.commission = commission
+
+
+    def getComission(self):
+        return self.commission
+
+
 
 # Billie works on a monthly salary of 4000.  Their total pay is 4000.
 billie = Employee('Billie')
